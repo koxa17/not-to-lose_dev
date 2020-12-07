@@ -10,7 +10,7 @@ export default class Footer extends Component {
               <div className="footer__logo">
                 <a href="./">
                   <span className="footer__logo-title">
-                    <span>&lt;Not to</span> Lose <span>&gt;</span>
+                    <span>&lt;Not to</span> Lose<span>&gt;</span>
                   </span>
                 </a>
                 <div className="footer__wrapper">

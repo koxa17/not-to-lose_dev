@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import Keywords from './Keywords'
 
 function Card({ librarys }) {
-  let popularLinks = librarys.slice(0, 3)
+  let popularLinks = librarys.slice(0, 4)
   return popularLinks.map(({ title, version, couterClick, href, desc, keywords }, index) => {
     return (<li className="library-card" key={index + title}>
     <div className="title__card">

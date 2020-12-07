@@ -130,7 +130,7 @@ export default class Main extends Component {
       focusForm: false
     })
 
-    if (ANIMATION_FINISHED == true) {
+    if (ANIMATION_FINISHED === true) {
       // Анимация списка при блуре инпута
       this.listRef.current.classList.remove('show-list')     
       this.listRef.current.classList.add('hide-list')    

@@ -445,14 +445,3 @@ address {
     opacity: 1;
   }
 }
-
-// animation-name: <имя ключевых кадров>, <имя ключевых кадров 2>; указываем имя анимации
-// animation-duration: <время>, <время 2>; в s или с ms
-// animation-timing-function: ease, <имя>, <имя 2>; задает сценарий развития между анимациями
-// animation-iteration-count: <значение>, <значение 2>; колво повторов ключевых кадров
-// animation-direction: alternate-reverse; в каком порядке проигрывать анимацию
-// animation-play-state: pause; позволяет приостоновить анимацию по событию
-// animation-delay: 2s; длительность задержки перед анимацией
-// animation-fill-mode: forwards; определяет какие значиения анимированых свойств применятся
-// короткая запись
-// animation: name duration timing-function count direction delay fill-mode, можно еще добавить анимацию;
